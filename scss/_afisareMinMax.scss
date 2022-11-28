@@ -1,0 +1,41 @@
+.main-container-card{
+    background-color: $tertiary-color;
+    width: 1400px;
+    padding:50px;
+    margin: 100px auto;
+    &-description{
+        max-width: 500px;
+        padding: 15px auto;
+    }
+    &-details{
+        padding: 15px 0;
+    }
+
+}
+
+.request-title, .details-title{
+    font-size: 24px;
+    padding: 15px 0;
+    font-weight: $font-hard;
+}
+
+.entry-data{
+    border: none;
+    background-color: $fourth-color;
+    resize: none;
+    outline: none;
+    overflow: hidden;
+    background-color: rgba($primary-color, 0.5);
+}
+
+.difficulty{
+    background-color: lightgreen;
+    padding:5px 10px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgba($primary-color, 0.5);
+    margin: 1rem 0;
+    width: 50%;
+}
